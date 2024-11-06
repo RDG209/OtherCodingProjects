@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
-  printf("Hello, World!\n");
+int factorial(int n) {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+}
 
-  int num = 42;
-  float pi = 3.14;
-  char letter = 'C';
-  char name[] = "John";
+void squareInt(int *num) {
+  *num = (*num) * (*num);
+}
 
-  printf("Integer: %d\n", num);
-  printf("Float: %.2f\n", pi);
-  printf("Character: %c\n", letter);
-  printf("String: %s\n", name);
-
+int main() {
+  int n = 5;
+  squareInt(&n);
+  printf("Square of 5: %d\n", n);
+  printf("Factorial of 5: %d\n", factorial(5));
   return 0;
 }
