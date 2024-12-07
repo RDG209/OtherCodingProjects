@@ -1,0 +1,2 @@
+Given that in this example I am using arrays with fixed size, memory management and array handling isn't as complicated as I would've thought. I will say however, propeprly figuring out the pointer system for my loops did make it both harder, but also more interesting, than java.
+Also, being able to put all my code in a single class with it simply flowing down seems very nice to me, though I'm sure this changes as programs get larger.
