@@ -1,0 +1,1 @@
+Go has many specialized features that are quite unintuitive to look at, but once they make sense then Go seems to have excellent simplicity. To me it seems similar to python, but more abstract and with more shortcuts.
